@@ -1,4 +1,4 @@
-Vim plugins for development with Robot framework
+Vim plugins for development with [Robot framework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
 
 FUNCTIONALITY
 ------------------------------------------
@@ -25,3 +25,7 @@ USAGE
  * Or to enable the syntax highlighting for just a specific file you can issue the following command from vim:
 
     `:setf robot`
+
+ * Filetype support for .txt, .robot, .resource files. 
+
+ * Filetype detection for .txt based on presence of `*** Settings ***` line
