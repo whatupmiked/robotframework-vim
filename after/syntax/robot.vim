@@ -48,7 +48,7 @@ syn match robotGherkin              "\c\<\(Given\|When\|Then\|And\|But\)\>"
 
 " Settings (global)
 syn match robotSetup                "\c\<\(Suite\|Test\) \(Setup\|Teardown\|Precondition\|Postcondition\)\>"
-syn match robotSettings             "\c\<\(Library\|Resource\|Variables\|Documentation\|Metadata\|Force Tags\|Default Tags\|Test Template\|Test Timeout\)\>"
+syn match robotSettings             "\c\<\(Library\|Resource\|Variables\|Documentation\|Metadata\|Force Tags\|Default Tags\|Test Template\|Test Timeout\|WITH NAME\)\>"
 
 " Standard libraries
 " List variables in reverse order to match the longest pattern not the first one.
